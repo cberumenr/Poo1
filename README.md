@@ -15,3 +15,11 @@ Cristian Berumen Ramírez
 - _p07_OperadoresAsignacion
 - _p08_FuncionesTrigonometricas
 - _p09_DividirCifras
+
+## Práctica 1
+- _p10_HipotenusaTriangulo
+- _p11_CalcularAngulo
+- _p12_ConvertirTemperatura
+- _p13_VolumenCilindro
+- _p14_CalculoTiempo
+- _15_ConvertirDolares
