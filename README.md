@@ -28,4 +28,5 @@ Cristian Berumen Ramírez
 - _p16_TrabajandoEnteros
 - _p17_TrabajandoFlotantes
 - _p18_TrabajandoConstantes
-- _p19_
+- _p19_TrabajandoCaracteres
+- _p20_ConversionTipos
