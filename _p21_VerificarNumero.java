@@ -6,8 +6,7 @@ import java.util.Scanner;
 
 public class _p21_VerificarNumero {
     public static void main(String[] args) {
-        System.out.print("\033[H\033[2J");
-        System.out.flush();
+        System.out.print("\033[H\033[2J"); System.out.flush();
 
         System.out.println("Determina si un numero es positivo, negativo o cero\n");
 
