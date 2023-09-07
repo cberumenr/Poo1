@@ -28,5 +28,6 @@ public class _p41_ProcesaCalificaciones {
         prom = suma / n;
         System.out.printf("La suma es : %.2f\n", suma);
         System.out.printf("El promedio es : %.2f\n", prom);
+        
     }
 }

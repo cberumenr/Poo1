@@ -24,5 +24,6 @@ public class _p42_TablaMultiplicar {
             c++;
         }
         System.out.println("\nProceso terminado...");
+        
     }
 }
