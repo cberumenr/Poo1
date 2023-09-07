@@ -48,3 +48,24 @@ Cristian Berumen Ramírez
 - _p30_DiaSemana
 - _p31_NumeroRomanos
 - _p32_PagoEstacionamiento
+
+## Práctica 2
+- _p33_NumerosConsecutivos
+- _p34_NumeroMayor
+- _p35_ContinentesMundo
+- _p36_CompraPizza
+- _p37_CalculoNotas
+- _p38_AceptarEstudianteV2
+
+## Actividad 7
+- _p39_Numeros1al100
+- _p40_Numeros100al1
+- _p41_ProcesaCalificaciones
+- _p42_TablaMultiplicar
+- _p43_ConteoNumeros
+
+## Actividad 8
+- _p44_ParesAscendente
+- _p45_ImparesDescendente
+- _p46_TablaConversion
+- _p47_ConjeturaCollatz
