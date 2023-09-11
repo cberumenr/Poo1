@@ -69,3 +69,16 @@ Cristian Berumen Ramírez
 - _p45_ImparesDescendente
 - _p46_TablaConversion
 - _p47_ConjeturaCollatz
+
+## Práctica 3
+- _p48_
+- _p49_
+- _p50_
+- _p51_
+
+## Actividad 9
+- _p52_
+- _p53_
+- _p54_
+- _p55_
+- _p56_
