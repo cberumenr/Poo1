@@ -71,14 +71,14 @@ Cristian Berumen Ramírez
 - _p47_ConjeturaCollatz
 
 ## Práctica 3
-- _p48_
-- _p49_
-- _p50_
-- _p51_
+- _p48_ImparesAscendente
+- _p49_ParesDescendentes
+- _p50_ConversionTemperaturas
+- _p51_SerieFibonacci
 
 ## Actividad 9
-- _p52_
-- _p53_
-- _p54_
-- _p55_
-- _p56_
+- _p52_Numeros1aN
+- _p53_NumerosNa1
+- _p54_ArribaAbajo
+- _p55_SumaParesImpares
+- _p56_SumaPromadio
