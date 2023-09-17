@@ -82,3 +82,15 @@ Cristian Berumen Ramírez
 - _p54_ArribaAbajo
 - _p55_SumaParesImpares
 - _p56_SumaPromadio
+
+## Actividad 10
+- _p57_TablasMultiplicar
+- _p58_Piramide
+- _p59_FactorialNumeros
+- _p60_SumaTerminos
+
+## Práctica 4
+- _p61_SecuenciaNumeros1
+- _p62_SecuenciaNumeros2
+- _p63_SumaTerminos1
+- _p64_SumaTerminos2
