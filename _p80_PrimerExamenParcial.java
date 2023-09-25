@@ -20,8 +20,10 @@ public class _p80_PrimerExamenParcial {
         do {
             System.out.println("Ingresa tu nombre");
             name = in.next();
-            System.out.println("Ingresa tu edad"); 
-            age = in.nextInt();
+            do {
+                System.out.println("Ingresa tu edad"); 
+                age = in.nextInt();
+            } while (age < 18);
             tage += age;
             do {
                 System.out.println("Cual es tu sexo?\nElige una opcion:\n[F] Femenino\n[M] Masculino");
