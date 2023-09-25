@@ -115,3 +115,6 @@ Cristian Berumen Ramírez
 - _p77_MedidasLongitud
 - _p78_SumaMultiplos
 - _p79_Angulo
+
+## Examen Parcial 1
+- _p80_PrimerExamenParcial
