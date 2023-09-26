@@ -118,3 +118,10 @@ Cristian Berumen Ramírez
 
 ## Examen Parcial 1
 - _p80_PrimerExamenParcial
+
+## Actividad 13
+- _p81_InicializaArregloNumeros
+- _p82_InicializaArregloCadena
+- _p83_InicializaNombresEdades
+- _p84_PromedioArreglo
+- _p85_NombreEdades
