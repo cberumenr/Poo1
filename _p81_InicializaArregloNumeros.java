@@ -5,7 +5,7 @@
 public class _p81_InicializaArregloNumeros {
     public static void main(String[] args) {
         int MAX = 8;
-        double[] nums = new double[7];
+        double[] nums = new double[MAX];
 
         nums[0] = 5.0;
         nums[1] = 10.0;
