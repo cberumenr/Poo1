@@ -46,5 +46,4 @@ public class Factura {
     public String toString() {
         return "Factura [Id=" + Id + ", Cliente=" + Cliente + ", Monto=" + Monto + "]";
     }
-
 }

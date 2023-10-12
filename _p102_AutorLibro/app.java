@@ -17,6 +17,4 @@ public class app {
         Libro libro2 = new Libro("15602105", "Me before you", new Autor("Jose Jose", "Jose@gmail.com"), 850, 5);
         System.out.println(libro2);
     }
-
-    
 }

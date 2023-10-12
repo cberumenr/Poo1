@@ -16,6 +16,7 @@ public class app {
 
         Persona persona3 = new Persona("Sayra Guadalupe", new Trabajo(3, "Doctor", 45000));
         System.out.println(persona3);
+        
 
     }
 }

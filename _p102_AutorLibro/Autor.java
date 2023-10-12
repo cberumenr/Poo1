@@ -32,5 +32,4 @@ public class Autor {
     public String toString() {
         return "Autor [nombre=" + nombre + ", correo=" + correo + "]";
     }
-    
 }

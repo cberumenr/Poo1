@@ -63,5 +63,4 @@ public class Libro {
         return "Libro [Isbn=" + Isbn + ", Nombre=" + Nombre + ", Autor=" + Autor + ", Precio=" + Precio + ", cant="
                 + cant + "]";
     }
-
 }

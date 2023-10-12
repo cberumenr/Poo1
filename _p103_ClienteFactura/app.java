@@ -24,4 +24,5 @@ public class app {
         System.out.println("Factura Monto: " + factura2.getMonto());
         System.out.println("Factura Monto con Descuento: " + factura2.getMontoConDescuento());
     }
+    
 }
