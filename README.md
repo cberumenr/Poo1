@@ -130,7 +130,7 @@ Cristian Berumen Ramírez
 - _p86_ArregloMostrar
 - _p87_ArregloTemperaturas
 - _p88_Aleatorios
-- _p89_ArregloAleatorios
+- _p89_Arreglo Aleatorios
 
 ## Práctica 6
 - _p90_Temperaturas
@@ -153,6 +153,10 @@ Cristian Berumen Ramírez
 - _p101_TrabajoPersona
 - _p102_AutorLibro
 - _p103_ClienteFactura
+
+## Práctica 8
+- _p104_PuntoCirculo
+- _p105_PuntoTriangulo
 
 ## Actividad 17
 - _p106_Persona
