@@ -174,3 +174,7 @@ Cristian Berumen Ramírez
 
 ## Práctica 10
 - _p112_ControlVentas
+
+## Examen Parcial 2
+- _p113_SegundoExamenParcial
+
