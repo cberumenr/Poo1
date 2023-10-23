@@ -168,3 +168,9 @@ Cristian Berumen Ramírez
 
 ## Actividad 18
 - _p110_CuentaBancariaV1
+
+## Acriviad 19
+- _p111_
+
+## Práctica 10
+- _p112_ControlVentas
