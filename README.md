@@ -183,3 +183,7 @@ Cristian Berumen Ramírez
 - _p115_Telefono
 - _p116_Juego
 - _p117_FiguraGeametrica
+
+## Actividad 21
+- _p118_Calculadora
+- _p119_Organismo
