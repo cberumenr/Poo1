@@ -1,6 +1,8 @@
 Juan
 Pedro
+Luis
+Jose
+Reynaldo
 Maria
-Chilly
-Chino
-Geis
+Teresa
+Rocio
