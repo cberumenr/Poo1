@@ -1,4 +1,4 @@
-package _p145_HolaMundoGUIV1;
+package _p146_HolaMundoGUIV1;
 
 import java.io.Serializable;
 
@@ -8,6 +8,8 @@ public class Estudiante implements Serializable {
     double Peso;
     String Correo;
 
+    public Estudiante() {}
+    
     public Estudiante(String nombre, int edad, double peso, String correo) {
         Nombre = nombre;
         Edad = edad;

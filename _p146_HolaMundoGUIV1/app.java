@@ -1,4 +1,4 @@
-package _p145_HolaMundoGUIV1;
+package _p146_HolaMundoGUIV1;
 
 import javax.swing.*;
 import java.awt.*;
@@ -18,6 +18,8 @@ public class app extends JFrame implements ActionListener {
     JScrollPane spane;
     JTable table;
     DefaultTableModel modelo;
+    JFileChooser fchArchivo;
+    JButton btnAgregar, btnGrabar;
 
     public app() {
         super("Datos de Estudiantes");
@@ -41,24 +43,33 @@ public class app extends JFrame implements ActionListener {
         smnAcercade = new JMenuItem("Acerca de ..");
         mnuAyuda.add(smnAcercade);
         smnAcercade.addActionListener(this);
-        jdlAcercaDe = new JDialog(this,"Acerca de...");
-        jdlAcercaDe.setSize(300,250);
+        jdlAcercaDe = new JDialog(this, "Acerca de...");
+        jdlAcercaDe.setSize(300, 250);
         jdlAcercaDe.setLocationRelativeTo(null);
-        lblDatos = new JLabel("<html>Programación Oriendada a Objetos I<br>Cristian Berumen Ramírez</html>",JLabel.CENTER);
-        lblDatos.setFont(new Font("Times New Roman",Font.BOLD, 18));
+        lblDatos = new JLabel("<html>Programación Oriendada a Objetos I<br>Cristian Berumen Ramírez</html>",
+                JLabel.CENTER);
+        lblDatos.setFont(new Font("Times New Roman", Font.BOLD, 18));
         jdlAcercaDe.add(lblDatos);
-        setLayout(new GridLayout(2, 1, 0, 0));
+        setLayout(new GridLayout(3, 1));
         pnlTabla = new JPanel();
-        getContentPane().add(pnlTabla);
+        pnlTabla.setLayout(new BoxLayout(pnlTabla, BoxLayout.X_AXIS));
+        add(pnlTabla);
         spane = new JScrollPane();
+        spane.setVerticalScrollBarPolicy(JScrollPane.VERTICAL_SCROLLBAR_AS_NEEDED);
         pnlTabla.add(spane);
         table = new JTable();
         table.getTableHeader().setBackground(Color.yellow);
         table.getTableHeader().setForeground(Color.black);
         spane.setViewportView(table);
         modelo = new DefaultTableModel();
-        modelo.setColumnIdentifiers(new String[]{"Nombre","Edad","Peso","Correo"});
+        modelo.setColumnIdentifiers(new String[] { "Nombre", "Edad", "Peso", "Correo" });
         table.setModel(modelo);
+        table.addMouseListener(new MouseAdapter() {
+            public void MousePressed(MouseEvent e) {
+                int ren = table.rowAtPoint(e.getPoint());
+                mostrarDatos(ren);
+            }
+        });
         pnlDatos = new JPanel();
         getContentPane().add(pnlDatos);
         pnlDatos.setLayout(new GridLayout(4, 2, 0, 0));
@@ -82,6 +93,16 @@ public class app extends JFrame implements ActionListener {
         txtCorreo = new JTextField();
         pnlDatos.add(lblCorreo);
         pnlDatos.add(txtCorreo);
+
+        pnlBotones = new JPanel();
+        btnAgregar = new JButton("Agregar");
+        btnAgregar.addActionListener(this);
+        pnlBotones.add(btnAgregar);
+        btnGrabar = new JButton("Grabar");
+        btnGrabar.setEnabled(false);
+        btnGrabar.addActionListener(this);
+        pnlBotones.add(btnGrabar);
+        add(pnlBotones);
     }
 
     public void actionPerformed(ActionEvent e) {
@@ -93,6 +114,9 @@ public class app extends JFrame implements ActionListener {
     }
 
     public void cargarDatos() {
+        DefaultTableModel dm = (DefaultTableModel) table.getModel();
+        while (dm.getRowCount() > 0)
+            dm.removeRow(0);
         Object[] obj = new Object[4];
         for (int i = 0; i < datos.size(); i++) {
             obj[0] = datos.get(i).getNombre();
