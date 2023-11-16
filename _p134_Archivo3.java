@@ -8,7 +8,7 @@ public class _p134_Archivo3 {
     public static void main(String[] args) {
         File arch = new File("nombres.txt");
         if (arch.exists()) {
-                        try {
+            try {
                 BufferedReader fnombres = new BufferedReader(new FileReader(arch));
                 String linea;
                 while ((linea = fnombres.readLine()) !=null)
